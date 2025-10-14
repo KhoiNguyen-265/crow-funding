@@ -29,4 +29,11 @@
 
 body {
     font-family: "Epilogue", sans-serif;
+    font-size: var(--text-base);
+    line-height: 1.5;
+}
+
+input,
+button {
+    outline: none;
 }
