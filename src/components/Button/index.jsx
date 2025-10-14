@@ -15,7 +15,8 @@ function Button({
     const variants = {
         primary: "bg-primary text-white",
         secondary: "bg-secondary text-white",
-        outline: "border border-strock text-text2",
+        outline:
+            "border border-strock dark:border-dark-stroke text-text2 dark:text-white",
     };
 
     const isDisabledOrLoading = disable || loading;

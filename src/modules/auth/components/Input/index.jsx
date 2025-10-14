@@ -16,7 +16,7 @@ function Input({
     });
 
     const baseClasses =
-        "w-full px-6 py-4 text-sm font-medium border border-strock rounded-[10px] text-text1 placeholder:text-text4";
+        "w-full px-6 py-4 text-sm font-medium border border-strock dark:border-dark-stroke rounded-[10px] text-text1 placeholder:text-text4 dark:placeholder:text-text2 dark:text-white";
     const focusClasses =
         " focus:ring-2 focus:border-transparent transition-all duration-300";
 

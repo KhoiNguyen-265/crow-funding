@@ -36,7 +36,7 @@ function SignUp() {
     return (
         <>
             <Logo className="inline-block mb-5 lg:mb-16" />
-            <div className="w-full max-w-[556px] bg-white rounded-xl px-5 py-8 sm:px-16 lg:py-12 mx-auto">
+            <div className="w-full max-w-[556px] bg-white dark:bg-dark-secondary rounded-xl px-5 py-8 sm:px-16 lg:py-12 mx-auto">
                 <Heading>Sign Up</Heading>
 
                 <div className="flex items-center gap-x-1 justify-center text-xs mb-6 lg:mb-8 lg:text-sm ">
@@ -54,7 +54,7 @@ function SignUp() {
                     <span>Sign in with google</span>
                 </Button>
 
-                <p className="text-xs mb-4 lg:text-sm lg:mb-8 text-text2 text-center">
+                <p className="text-xs mb-4 lg:text-sm lg:mb-8 text-text2 dark:text-white text-center">
                     Or sign up with email
                 </p>
 
@@ -110,7 +110,7 @@ function SignUp() {
                                 onChange={field.onChange}
                                 className="mb-8 lg:mb-5"
                             >
-                                <p className="text-xs lg:text-sm text-text2">
+                                <p className="text-xs lg:text-sm text-text2 dark:text-text3">
                                     I agree to the{" "}
                                     <span className="underline text-secondary">
                                         Teams of Use

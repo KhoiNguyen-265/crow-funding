@@ -4,7 +4,7 @@ import ellipse from "@/assets/icons/ellipse.svg";
 
 function AuthLayout() {
     return (
-        <div className="relative w-full min-h-screen p-10 bg-lite isolate">
+        <div className="relative w-full min-h-screen p-10 bg-lite dark:bg-dark-bg isolate">
             <img
                 src={ellipse}
                 alt=""
