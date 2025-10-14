@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Controller, useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
@@ -12,7 +13,6 @@ import Input from "@/modules/auth/components/Input";
 import Checkbox from "@/components/Checkbox";
 import eyeOff from "@/assets/icons/eye-off.svg";
 import eyeOn from "@/assets/icons/eye-on.svg";
-import { useState } from "react";
 
 function SignUp() {
     const {
@@ -36,7 +36,7 @@ function SignUp() {
     return (
         <>
             <Logo className="inline-block mb-5 lg:mb-16" />
-            <div className="w-full max-w-[556px] bg-white dark:bg-dark-secondary rounded-xl px-5 py-8 sm:px-16 lg:py-12 mx-auto">
+            <div className="w-full max-w-[556px] bg-white dark:bg-dark-secondary rounded-xl px-5 py-8 sm:px-16 lg:py-12 mx-auto animate-fade-in">
                 <Heading>Sign Up</Heading>
 
                 <div className="flex items-center gap-x-1 justify-center text-xs mb-6 lg:mb-8 lg:text-sm ">

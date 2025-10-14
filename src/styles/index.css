@@ -1,5 +1,7 @@
 @import "tailwindcss";
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 @theme {
     --color-primary: #1dc071;
     --color-secondary: #6f49fd;
@@ -27,6 +29,10 @@
     --color-dark-red: #422c32;
 }
 
+@utility animate-fade-in {
+    animation: fadeIn 1s ease-in-out both;
+}
+
 body {
     font-family: "Epilogue", sans-serif;
     font-size: var(--text-base);
@@ -36,4 +42,15 @@ body {
 input,
 button {
     outline: none;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-80px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
