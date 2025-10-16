@@ -6,7 +6,7 @@ import { SignUpSchema } from "@/modules/auth/schemas/SignUpSchema.js";
 import Logo from "@/components/Logo";
 import Button from "@/components/Button";
 import google from "@/assets/icons/google.svg";
-import Heading from "@/modules/auth/components/Heading";
+import Heading from "@/components/Heading";
 import InputField from "@/modules/auth/components/InputField";
 import Label from "@/modules/auth/components/Label";
 import Input from "@/modules/auth/components/Input";
@@ -37,7 +37,12 @@ function SignUp() {
         <>
             <Logo className="inline-block mb-5 lg:mb-16" />
             <div className="w-full max-w-[556px] bg-white dark:bg-dark-secondary rounded-xl px-5 py-8 sm:px-16 lg:py-12 mx-auto animate-fade-in">
-                <Heading>Sign Up</Heading>
+                <Heading
+                    type="h1"
+                    className="mb-1 lg:mb-3 text-center lg:text-lg"
+                >
+                    Sign Up
+                </Heading>
 
                 <div className="flex items-center gap-x-1 justify-center text-xs mb-6 lg:mb-8 lg:text-sm ">
                     <p className="text-text3">Already have an account?</p>
