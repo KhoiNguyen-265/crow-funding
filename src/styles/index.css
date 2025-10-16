@@ -27,6 +27,8 @@
     --color-dark-soft: #24242c;
     --color-dark-stroke: #3a3a43;
     --color-dark-red: #422c32;
+
+    --shadow-shadowMain: 10px 10px 20px rgba(218, 213, 213, 0.15);
 }
 
 @utility animate-fade-in {
