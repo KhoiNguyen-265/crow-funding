@@ -1,0 +1,148 @@
+import {
+    campaignImg1,
+    campaignImg2,
+    campaignImg3,
+    campaignImg4,
+    campaignImg5,
+    campaignImg6,
+    campaignImg7,
+    campaignImg8,
+    avatar1,
+    avatar2,
+    avatar3,
+    avatar4,
+    avatar5,
+    avatar6,
+    avatar7,
+    avatar8,
+} from "@/assets/images";
+
+export const popularCampaigns = [
+    {
+        id: 1,
+        image: campaignImg1,
+        category: "Education",
+        title: "Powered Kits Learning Boxes",
+        description:
+            "Fun, durable and reusable boxes with eco-friendly options.",
+        raised: "$2000",
+        goal: "Raised of $1900",
+        backers: 173,
+        backersDesc: "Total backers",
+        author: {
+            name: "Mahfuzul Nabil",
+            avatar: avatar1,
+        },
+    },
+    {
+        id: 2,
+        image: campaignImg2,
+        category: "Real Estate",
+        title: "Building Hope Village",
+        description: "Together we can create access for everyone!",
+        raised: "$250",
+        goal: "Raised of $1900",
+        backers: 50,
+        backersDesc: "Total backers",
+        author: {
+            name: "Adom Shafi",
+            avatar: avatar2,
+        },
+    },
+    {
+        id: 3,
+        image: campaignImg3,
+        category: "Real Estate",
+        title: "New iMac For My Business!",
+        description:
+            "My computer decided to die. As a result, my small business.",
+        raised: "$1200",
+        goal: "Raised of $1800",
+        backers: 12,
+        backersDesc: "Total backers",
+        author: {
+            name: "Sami Ahmed",
+            avatar: avatar3,
+        },
+    },
+    {
+        id: 4,
+        image: campaignImg4,
+        category: "Home",
+        title: "The Watchman's Chairs",
+        description:
+            "Your home for indie and classic cinema has just been handed an...",
+        raised: "$5000",
+        goal: "Raised of $10900",
+        backers: 100,
+        backersDesc: "Total backers",
+        author: {
+            name: "Nill",
+            avatar: avatar4,
+        },
+    },
+];
+
+export const recentCampaigns = [
+    {
+        id: 1,
+        image: campaignImg5,
+        category: "Camera Gear",
+        title: "Advanced 4K Action Camera",
+        description: "THE SV RG - Start Creating Now Without Limitation.",
+        raised: "$500",
+        goal: "Raised of $1100",
+        backers: 173,
+        backersDesc: "Total backers",
+        author: {
+            name: "Cham",
+            avatar: avatar5,
+        },
+    },
+    {
+        id: 2,
+        image: campaignImg6,
+        category: "Food",
+        title: "Resturants Open Business",
+        description:
+            "A unique restaurant, bar, beer garden, and tailgating location",
+        raised: "$950",
+        goal: "Raised of $1200",
+        backers: 150,
+        backersDesc: "Total backers",
+        author: {
+            name: "Mahbubul Alom",
+            avatar: avatar6,
+        },
+    },
+    {
+        id: 3,
+        image: campaignImg7,
+        category: "Comics",
+        title: '"Lost Soul" graphic novel',
+        description: 'A team of ex-superheroes attempt to save a "monster"',
+        raised: "$1800",
+        goal: "Raised of $1900",
+        backers: 5,
+        backersDesc: "Total backers",
+        author: {
+            name: "Sajib Rahman",
+            avatar: avatar7,
+        },
+    },
+    {
+        id: 4,
+        image: campaignImg8,
+        category: "Clothe & Wearables",
+        title: "Cool Comfy Shoes easy on You",
+        description: "A new category of super comfortable casual shoes.",
+        raised: "$4000",
+        goal: "Raised of $6000",
+        backers: 100,
+        backersDesc: "Total backers",
+        author: {
+            name: "Saleh Ahmed",
+            avatar: avatar8,
+        },
+    },
+];

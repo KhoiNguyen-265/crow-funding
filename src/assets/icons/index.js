@@ -25,6 +25,7 @@ import ProfileIcon from "./profile.svg?react";
 import SearchIcon from "./search.svg?react";
 import UpIcon from "./up.svg?react";
 import WithdrawIcon from "./withdraw.svg?react";
+import FolderIcon from "./folder.svg?react";
 
 export {
     ArrowDownIcon,
@@ -54,4 +55,5 @@ export {
     SearchIcon,
     UpIcon,
     WithdrawIcon,
+    FolderIcon,
 };

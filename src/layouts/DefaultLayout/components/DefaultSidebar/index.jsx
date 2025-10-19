@@ -49,8 +49,8 @@ function DefaultSidebar() {
         "hover:text-primary hover:bg-[#F1FBF7] transition-all duration-300";
 
     return (
-        <div className="py-10 px-[14px] bg-white md:w-[76px] md:h-[full] w-full shadow-shadowMain rounded-[20px]">
-            <ul className="flex flex-col items-center gap-y-5 ">
+        <div className="sticky top-20 h-[calc(100vh_-_80px)] shrink-0 py-10 px-[14px] max-h-[733px] bg-white md:w-[76px] md:h-[full] w-full shadow-shadowMain rounded-[20px]">
+            <ul className="flex flex-col items-center gap-y-5 h-full">
                 {sidebarLinks.map((link, index) => {
                     const IconComponent = link.icon;
                     return (
@@ -76,9 +76,9 @@ function DefaultSidebar() {
                         </li>
                     );
                 })}
-                <li>
+                <li className="mt-auto">
                     <button
-                        className={`text-icon mt-auto md:w-12 md:h-12 rounded-[10px] flex items-center justify-center cursor-pointer ${hoverClasses}`}
+                        className={`text-icon md:w-12 md:h-12 rounded-[10px] flex items-center justify-center cursor-pointer ${hoverClasses}`}
                     >
                         <DarkIcon />
                     </button>

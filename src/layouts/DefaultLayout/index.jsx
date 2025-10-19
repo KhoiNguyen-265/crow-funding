@@ -6,7 +6,7 @@ function DefaultLayout() {
     return (
         <div className="bg-lite">
             <DefaultTopBar />
-            <div className="p-10">
+            <div className="p-10 flex gap-x-10">
                 <DefaultSidebar />
                 <Outlet />
             </div>

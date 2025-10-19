@@ -1,6 +1,5 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import AuthLayout from "../../layouts/AuthLayout";
-
 import SignUp from "../../modules/auth/pages/SignUp";
 import SignIn from "../../modules/auth/pages/SignIn";
 import DefaultLayout from "../../layouts/DefaultLayout";

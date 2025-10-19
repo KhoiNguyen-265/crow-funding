@@ -6,7 +6,7 @@ import { UpIcon, ArrowDownIcon } from "@/assets/icons";
 
 function DefaultTopBar() {
     return (
-        <div className="flex items-center bg-orange-200 px-[50px] pt-[20px]">
+        <div className="sticky z-50 -top-3 flex items-center bg-orange-50 px-[50px] pt-5 pb-2">
             <Logo />
             <Search />
             <div className="flex items-center gap-x-10 ml-auto cursor-pointer">

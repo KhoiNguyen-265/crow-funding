@@ -33,10 +33,7 @@ function SignIn() {
         <>
             <Logo className="inline-block mb-5 lg:mb-16" />
             <div className="w-full max-w-[556px] bg-white dark:bg-dark-secondary rounded-xl px-5 py-8 lg:px-16 lg:py-12 mx-auto animate-fade-in">
-                <Heading
-                    type="h1"
-                    className="mb-1 lg:mb-3 text-center lg:text-lg"
-                >
+                <Heading as="h1" variant="h1">
                     Welcome Back!
                 </Heading>
 
