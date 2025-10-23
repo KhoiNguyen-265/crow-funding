@@ -1,5 +1,3 @@
-import search from "@/assets/icons/search.svg";
-
 function Search() {
     return (
         <div className="relative w-full max-w-[458px] ml-[50px]">

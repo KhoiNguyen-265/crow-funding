@@ -10,13 +10,14 @@ function Button({
     const Component = href ? "a" : "button";
 
     const base =
-        "relative flex items-center justify-center rounded-[10px] py-3 px-4 text-sm lg:text-base font-semibold min-h-12";
+        "relative flex items-center justify-center rounded-[10px] py-3 px-5 text-sm lg:text-base font-semibold min-h-12";
 
     const variants = {
         primary: "bg-primary text-white",
         secondary: "bg-secondary text-white",
         outline:
             "border border-strock dark:border-dark-stroke text-text2 dark:text-white",
+        outlineSecondary: "text-secondary bg-[#EEEAFD]",
     };
 
     const isDisabledOrLoading = disable || loading;

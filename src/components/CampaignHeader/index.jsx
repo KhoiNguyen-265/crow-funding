@@ -1,19 +1,19 @@
 import Heading from "@/components/Heading";
-import CampaignCategory from "../CampaignCategory";
-import CampaignImage from "../CampaignImage";
+import CampaignCategory from "../../modules/dashboard/components/CampaignCategory";
+import CampaignImage from "../../modules/dashboard/components/CampaignImage";
 import { campaignHeader_01 } from "@/assets/images";
 import CampaignDesc from "../CampaignDesc";
-import CampaignMetaRow from "../CampaignMetaRow";
-import CampaignMeta from "../CampaignMeta";
+import CampaignMetaRow from "../../modules/dashboard/components/CampaignMetaRow";
+import CampaignMeta from "../../modules/dashboard/components/CampaignMeta";
 
 function CampaignHeader({ className }) {
     return (
         <div
-            className={`flex items-center gap-x-[30px] max-w-[1048px] ${className}`}
+            className={`flex items-center gap-x-[30px] max-w-[1048px] w-full ${className}`}
         >
             <CampaignImage
                 src={campaignHeader_01}
-                className="w-[56%] max-h-[300px] rounded-3xl"
+                className="w-[56%] max-w-[583px] max-h-[266px] rounded-3xl"
             />
             <div>
                 <CampaignCategory size="large">Architecture</CampaignCategory>

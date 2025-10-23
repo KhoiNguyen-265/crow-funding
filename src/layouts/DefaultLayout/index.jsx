@@ -8,7 +8,9 @@ function DefaultLayout() {
             <DefaultTopBar />
             <div className="p-10 flex gap-x-10">
                 <DefaultSidebar />
-                <Outlet />
+                <div className="flex-1">
+                    <Outlet />
+                </div>
             </div>
         </div>
     );

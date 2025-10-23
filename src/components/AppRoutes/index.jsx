@@ -4,6 +4,9 @@ import SignUp from "../../modules/auth/pages/SignUp";
 import SignIn from "../../modules/auth/pages/SignIn";
 import DefaultLayout from "../../layouts/DefaultLayout";
 import Dashboard from "../../modules/dashboard/pages/Dashboard";
+import Campaign from "../../modules/campaign/pages/Campaign";
+import CampaignAddNew from "../../modules/campaign/pages/CampaignAddNew";
+import Dropdown from "../Dropdown";
 
 function AppRoutes() {
     return (
@@ -18,7 +21,14 @@ function AppRoutes() {
                 {/* Dashboard Layout */}
                 <Route element={<DefaultLayout />}>
                     <Route path="/" element={<Dashboard />} />
+                    <Route path="/campaign" element={<Campaign />} />
+                    <Route
+                        path="/campaign-add-new"
+                        element={<CampaignAddNew />}
+                    />
                 </Route>
+
+                <Route path="/dropdown" element={<Dropdown />} />
             </Routes>
         </BrowserRouter>
     );

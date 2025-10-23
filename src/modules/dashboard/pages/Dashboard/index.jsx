@@ -3,17 +3,15 @@ import CampaignGrid from "../../components/CampaignGrid";
 import CampaignCard from "../../components/CamPaignCard";
 import { popularCampaigns, recentCampaigns } from "./data";
 import Gap from "../../../../components/Gap30";
-import CampaignHeader from "../../components/CampaignHeader";
+import CampaignHeader from "../../../../components/CampaignHeader";
 
 function Dashboard() {
     return (
         <div>
-            <Gap>
-                <Heading>
-                    Your Campaign <span className="text-secondary">(4)</span>
-                </Heading>
-                <CampaignHeader className="mt-4" />
-            </Gap>
+            <Heading>
+                Your Campaign <span className="text-secondary">(4)</span>
+            </Heading>
+            <CampaignHeader className="mt-4" />
             <Gap>
                 <Heading>Popular Campaign</Heading>
                 <CampaignGrid className="mt-4">

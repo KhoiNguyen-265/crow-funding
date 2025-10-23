@@ -1,5 +1,5 @@
-function Gap({ children }) {
-    return <div className="mt-[30px]">{children}</div>;
+function Gap({ children, className }) {
+    return <div className={`mt-[30px] ${className}`}>{children}</div>;
 }
 
 export default Gap;

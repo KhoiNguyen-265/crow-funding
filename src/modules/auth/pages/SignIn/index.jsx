@@ -8,8 +8,8 @@ import Button from "@/components/Button";
 import google from "@/assets/icons/google.svg";
 import Heading from "@/components/Heading";
 import InputField from "@/modules/auth/components/InputField";
-import Label from "@/modules/auth/components/Label";
-import Input from "@/modules/auth/components/Input";
+import Label from "@/components/Label";
+import Input from "@/components/Input";
 import eyeOff from "@/assets/icons/eye-off.svg";
 import eyeOn from "@/assets/icons/eye-on.svg";
 
@@ -33,7 +33,7 @@ function SignIn() {
         <>
             <Logo className="inline-block mb-5 lg:mb-16" />
             <div className="w-full max-w-[556px] bg-white dark:bg-dark-secondary rounded-xl px-5 py-8 lg:px-16 lg:py-12 mx-auto animate-fade-in">
-                <Heading as="h1" variant="h1">
+                <Heading as="h1" variant="h1" className="text-center mb-3">
                     Welcome Back!
                 </Heading>
 

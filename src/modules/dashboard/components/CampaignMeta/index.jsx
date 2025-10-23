@@ -1,5 +1,5 @@
 import clsx from "clsx";
-import CampaignDesc from "../CampaignDesc";
+import CampaignDesc from "../../../../components/CampaignDesc";
 
 function CampaignMeta({
     quantity = "",
